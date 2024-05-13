@@ -1,4 +1,4 @@
-# ChatFlask
+# ChatSystem
 
 This is a simple chat application built with Flask, SQLAlchemy, and SQLite.
 
@@ -15,8 +15,8 @@ The project structure is organized into separate files for better modularity and
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Pikuz1/chat-flask.git 
-   cd chat-flask
+   git clone https://github.com/Pikuz1/ChatSystem.git 
+   cd chat-system
    ```
 
 2. Install dependencies:
