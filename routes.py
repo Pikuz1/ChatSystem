@@ -27,3 +27,11 @@ def chat_messages(chat_id):
         db.session.add(new_message)
         db.session.commit()
         return jsonify({'message': 'Message sent successfully'})
+
+# Route to clear all chats
+@app.route('/clear-chats', methods=['POST'])
+def clear_chats():
+    # Clear all chats from the database
+    Chat.query.delete()
+    db.session.commit()
+    return jsonify({'message': 'All chats cleared successfully'})
